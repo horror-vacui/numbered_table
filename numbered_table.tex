@@ -1,0 +1,18 @@
+\documentclass[10pt]{article}
+  % \usepackage{nopageno} % removes page numbering; the printable area does not increase
+  \usepackage{longtable} % for multi-page tables
+  \usepackage{tabu} % for multi-page tables with cell stretching. Based on longtable
+  \usepackage[margin=0.5in]{geometry}
+  \extrarowsep=3mm
+
+\begin{document}
+  % The cell width differs from foreseen content
+  % The number of columns is set in the accompanied python script
+
+  % one move mates
+  \input{mate1.tex}
+  % two move mates
+  \input{mate2.tex}
+  % three move mates
+  \input{mate3.tex}
+\end{document}
