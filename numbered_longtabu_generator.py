@@ -2,9 +2,18 @@ import numpy as np
 from tabulate import tabulate
 import subprocess
 
-n_mate1 = 306
-n_mate2 = 3718
-n_mate3 = 4462
+transpose = False
+# n_mate1 = 306
+# n_mate2 = 3718
+# n_mate3 = 4462
+
+n_mate1 = 50  # nyelvtan tesztekhez
+n_col1  = 10
+n_mate2 = 0 
+n_mate3 = 0 
+transpose = True
+
+# modulo artimetic --> multiple tables on the same page
 
 # The number of the table columns are hardcoded: 8, 3, and 1
 mate1 = np.array_split(np.arange(1,n_mate1+1), np.floor(n_mate1/8)+1)
