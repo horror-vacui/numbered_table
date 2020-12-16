@@ -6,7 +6,6 @@ transpose = False
 # n_mate1 = 306
 # n_mate2 = 3718
 # n_mate3 = 4462
-# test change...
 
 n_mate1 = 50  # nyelvtan tesztekhez
 n_col1  = 10
